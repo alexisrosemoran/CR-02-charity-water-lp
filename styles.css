@@ -39,14 +39,12 @@ section {
 
 /* Hero Section Styles */
 .hero {
-  position: relative; /* Needed for overlay */
-  /* Set a background image that covers the whole section */
-  background-image: url(https://cdn2.dropmarkusercontent.com/52043/d222867aa427c039ca7d5f0c93e22845eb0dc2c7d04979009b600bcec4d7d203/preview/4760_Ethiopia_2019_CG-.jpg?Expires=1771288690&Signature=Mo4CQwR--Twat5pjbU99XtZXKLyNhLlfyXgB4k7WpCQ8mlT8GtPPynpPy3bwg1qLD1xh0FjcaJJumnNQUEyLPA55MciILo0HDsVsK6ANR3nJKqboXAQ8YMw-PQNNXyQC1cmyq8mfsG~5k8P~ApVxP9wrF0gU-6ktuE8yTVFMRzkJTl5vdkfJFJJD837Hlj7yzOCxfN0me1ANaGL7YICoP6V6CY17O5CmUiCm3iuOCyLg0F1o5~6U1yHDc32zfVAhK3xkPzWMdLtFlCJJg11X8ucM5mmufz0PsRO~BGtrXMBRxTSNgUkv6tkHGOGqq4TGHcn51oMrKLFfdGp30fikkw__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ);
+  position: relative; 
   background-size: cover;      /* Make the image cover the whole area */
   background-position: right; /* Center the image */
-  background-repeat: no-repeat;
-  color: #fff;                 /* White text for contrast */
-  text-align: center;          /* Center the text */
+  background-color: #fff;
+  color: #222 ;              
+  text-align: left;          /* Center the text */
   padding: 60px 20px;          /* Add space above and below */
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
 }
@@ -59,10 +57,18 @@ section {
   margin-bottom: 15px;
   text-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for readability */
 }
-
+.hero h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for readability */
+}
 /* Style the subheadline */
 .hero p {
   font-size: 1.2em;
+  text-align: left;
   margin-top: 0;
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
@@ -76,13 +82,6 @@ section {
 }
 
 /* Style the impact story image */
-.impact-image {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
-}
 
 /* Donate Button Styles */
 .donate-button {
